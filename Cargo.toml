@@ -1,0 +1,13 @@
+[package]
+name = "barf"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+image = "0.23.14"
+winit = "0.24.0"
+wgpu = "0.7.1"
+futures = "0.3.14"
+
+[build-dependencies]
+shaderc = "0.7.2"
